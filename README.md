@@ -1,9 +1,10 @@
-**Example how to use allure-report with playwright**
+***Example how to use allure-report with playwright***
 
-In this example you can see how to use allure-report with playwright and how to attach screenshots to report if test fail or handle other test events.
+In this example you can see how to use allure-report with [playwright](https://github.com/microsoft/playwright) and how to attach screenshots to report if test fail or handle other test events.
 
-Use circus for bind test events: https://www.npmjs.com/package/jest-circus
-Allure for circus: https://github.com/ryparker/jest-circus-allure-environment
+Use [jest-circus](https://www.npmjs.com/package/jest-circus) for bind test events
+
+[Allure for circus](https://github.com/ryparker/jest-circus-allure-environment)
 
 Setup dependencies:
 ```
