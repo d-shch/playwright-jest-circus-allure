@@ -16,7 +16,7 @@ Run tests:
 npm run test
 ```
 
-Open Allure report (allure must install locally https://docs.qameta.io/allure/#_installing_a_commandline):
+Open Allure report (allure must [install locally](https://docs.qameta.io/allure/#_installing_a_commandline)):
 ```
 allure serve
 ```
