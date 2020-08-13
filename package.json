@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "npx eslint --ext .js . --fix"
   },
-  "author": "",
+  "author": "Dmitry Shcherbakov",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^7.5.0",
     "expect-playwright": "^0.2.5",
     "jest": "^26.0.1",
     "jest-circus": "^26.1.0",

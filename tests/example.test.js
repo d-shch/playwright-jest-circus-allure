@@ -15,11 +15,11 @@ test("Test passed with tms link", async () => {
   * @issue https://github.com/d-shch/playwright-jest-circus-allure/issues/1
   */
   
-   await page.goto('https://github.com/d-shch/playwright-jest-circus-allure/issues/1')
-   await expect(page).toHaveText('.js-issue-title', 'Test issue')
+  await page.goto('https://github.com/d-shch/playwright-jest-circus-allure/issues/1')
+  await expect(page).toHaveText('.js-issue-title', 'Test issue')
 })
 
 test("Test failed with attach screenshot", async () => {
-   await page.goto('https://github.com/d-shch/playwright-jest-circus-allure/issues/1')
-   await expect(page).toHaveText('.js-issue-title', 'Fail')
+  await page.goto('https://github.com/d-shch/playwright-jest-circus-allure/issues/1')
+  await expect(page).toHaveText('.js-issue-title', 'Fail')
 })

@@ -1,3 +1,3 @@
 module.exports = async () => {
-    console.log("SETUP BEFORE ALL TESTS")
-};
+  console.log("SETUP BEFORE ALL TESTS")
+}
